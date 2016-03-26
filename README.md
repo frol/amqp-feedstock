@@ -73,6 +73,11 @@ Linux: [![Circle CI](https://circleci.com/gh/conda-forge/amqp-feedstock.svg?styl
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/amqp-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/amqp-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/amqp-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/amqp-feedstock/branch/master)
 
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/amqp/badges/version.svg)](https://anaconda.org/conda-forge/amqp)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/amqp/badges/downloads.svg)](https://anaconda.org/conda-forge/amqp)
+
 
 Updating amqp-feedstock
 =======================
