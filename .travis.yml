@@ -1,4 +1,3 @@
-
 # This file was generated automatically from conda-smithy. To update this configuration,
 # update the conda-forge.yaml and/or the recipe/meta.yaml.
 
@@ -7,9 +6,9 @@ language: objective-c
 env:
   matrix:
     
-    - CONDA_PY=27  
-    - CONDA_PY=34  
-    - CONDA_PY=35  
+    - CONDA_PY=27
+    - CONDA_PY=34
+    - CONDA_PY=35
   global:
     # The BINSTAR_TOKEN secure variable. This is defined canonically in conda-forge.yml.
     - secure: "d4Soyaqc3DeOqUJCv3cESyvUk/zMelP2W6AXgZ2vX6BTpRUyGtdYVYCmUFww2IXnQCfDewFHqWvGpnjFz4HZxjoZgG/6iLeAHkzczpCqYQ2XPhzAWJtgCnQ5+0TVVL/MIJjmrxybsnB85/WIKhE/d0rkUX1KapmybYm2O8tJE+bR4S14stFVIEjMgu5U/mbP3wbVtJUPzkzTWnXwajm+tjpzAXFfWtJzoBsrUaQFqEjf7aKKdnz/NWS3rSKJ+hQixRApWKitQC2LFV9/nGBO7BwUOp/FvVoL0odQCA6vhoHFHShZEnjzA9gN8n7uBpEf5rY5PE8zyBZh57WtCvPwuzkC/o6vAmtXECbqiXog2i4zJ+MO83PgV097e8aSsixKmW/fjA0rnNiGWoTwy7DiEQZNScGcNJYFhoRkFop8DoRpfzZMye5lO478b+A+YUAcdTYtkChM9oyMYEpjrI+hqnfW9cZv3D9+KmCSR5qsAiBS1o1w7EeivXdjHw/dW5LcCX8GxRnKYsB7KYi+NgO1vXZd5m5mVYWgwrgcidl7n3+Obac4T1ywC6qWUosbWmkoI6/yxH4P2o7XlyI4NTb8IRfG8VKfq126Y0YB4nl572cuBVP4HSrMzSafXv50FEQHm5g9YQW0s++qYvyilCpO534wdBMRnO4NxkrUQy4/x1s="
@@ -18,7 +17,7 @@ env:
 install:
     - |
       MINICONDA_URL="http://repo.continuum.io/miniconda"
-      MINICONDA_FILE="Miniconda3-3.7.3-MacOSX-x86_64.sh"
+      MINICONDA_FILE="Miniconda3-latest-MacOSX-x86_64.sh"
       wget "${MINICONDA_URL}/${MINICONDA_FILE}"
       bash $MINICONDA_FILE -b
 
@@ -26,8 +25,6 @@ install:
 
       conda update --yes conda
       conda install --yes conda-build jinja2 anaconda-client
-
-      
       conda config --add channels conda-forge
       
 
