@@ -5,7 +5,7 @@ Home: http://github.com/celery/py-amqp
 
 Package license: GNU Library or Lesser General Public License (LGPL) or BSD License
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Low-level AMQP client for Python (fork of amqplib)
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/amqp-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/amqp-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/amqp-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/amqp-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/amqp-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/amqp-feedstock/branch/master)
