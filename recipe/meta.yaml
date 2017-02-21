@@ -26,7 +26,9 @@ test:
 
 about:
     home: http://github.com/celery/py-amqp
-    license: GNU Library or Lesser General Public License (LGPL) or BSD License
+    license: BSD 3-clause
+    license_family: BSD
+    license_file: LICENSE
     summary: Low-level AMQP client for Python (fork of amqplib)
 
 extra:
