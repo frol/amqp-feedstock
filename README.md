@@ -3,7 +3,7 @@ About amqp
 
 Home: http://github.com/celery/py-amqp
 
-Package license: GNU Library or Lesser General Public License (LGPL) or BSD License
+Package license: BSD 3-clause
 
 Feedstock license: BSD 3-Clause
 
