@@ -20,7 +20,7 @@ requirements:
         - setuptools
     run:
         - python
-        - vine>=1.1.3
+        - vine >=1.1.3
 
 test:
     imports:
